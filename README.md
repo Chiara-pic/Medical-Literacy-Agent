@@ -46,7 +46,9 @@ Per configurare il secondo ramo del router bisogna prima di tutto configurare il
 Una volta fatto questo, incontriamo nello scenario un secondo router. Prima di configurare i due rami dobbiamo impostare le condizioni per cui il programma lavora nel primo ramo o nel secondo. L'orchestratore utilizza il primo ramo nel caso di un nuovo utente, quindi la condizione da impostare sarà {{8.`__IMTLENGTH__`}} Numeric Operators: Equal to 0; l'orchestratore utilizza il secondo ramo se invece l'utente ha giù utilizzato questo serivizio e quindi la sua email è già presente in memoria. La sua condizione sarà {{8.`__IMTLENGTH__`}} Numeric Operator: Grater than 0.
 Nel primo ramo di questo secondo router abbiamo solo un modulo google gemini add row 10 che dobbiamo collegare alla memoria a lungo termine e impostare che nella prima colonna va inserito l'indirizzo email dell'utente mentre nella seconda i risultati inseriti in questo modo <img width="887" height="807" alt="image" src="https://github.com/user-attachments/assets/0c217a7b-da85-49b3-8209-f10137260ec7" />.
 Passando ora al secondo ramo, dobbiamo collegare al primo modulo di google sheets, chiamto google sheets update row 11, la tabella della memoria a lungo termine e configurarla compilando il campo row number con questa espressione {{8.`__ROW_NUMBER__`}} e il campo values in columns <img width="547" height="675" alt="image" src="https://github.com/user-attachments/assets/537b1b7e-0300-4db1-bd5b-cef0d2b741f0" />.
-Dopo inserire il prompt di gemini # RUOLO E OBIETTIVO
+Dopo inserire il prompt di gemini
+
+ # RUOLO E OBIETTIVO
 Agisci come un assistente specializzato nell'analisi comparativa di esami e parametri di laboratorio.
 Il tuo compito è confrontare i parametri presenti nel precedente referto dell'utente con quelli presenti nel nuovo inserimento, utilizzando obbligatoriamente il database del registro come fonte di riferimento per effettuare un confronto attendibile.
 Devi produrre un'analisi comparativa precisa, completa, comprensibile e ordinata, senza formulare diagnosi mediche.
