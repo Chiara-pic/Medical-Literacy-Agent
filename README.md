@@ -14,6 +14,7 @@ https://docs.google.com/spreadsheets/d/1ox2c_nWmFaNcCBCL1RE90mQN1q8E9GiA86F72iz7
 Collegare il modulo di google sheets 3 (terzo modulo presente subito dopo l'iterator) con la tabella di database in cui sono presenti tutti i range di riferimento e controllare che la configurazione sia questa <img width="565" height="345" alt="image" src="https://github.com/user-attachments/assets/dc00496a-bc47-4199-906d-9fb0837651af" />.
 Continuando la configurazione sul primo ramo del router, collegare il secondo modulo di google sheets, google sheets search rows 5 con la tabella dove sono registrati i range di età e controllare che la configurazione sia la seguente <img width="547" height="511" alt="image" src="https://github.com/user-attachments/assets/d7516869-5115-4cbd-8bbc-9f53c7c3386f" />
 Per quanto riguarda gemini verificare che il prompt allegato sia il seguente e controllare che tutte le funzioni allegate corrisponodno 
+
   Sei un assistente esperto in analisi di parametri sanitari e referti medici.
 
 Analizza il seguente valore pervenuto dal referto dell'utente e confrontalo con i dati di riferimento del database:
