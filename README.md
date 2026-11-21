@@ -18,7 +18,8 @@ Elaborazione
 
 Orchestratore (Make): separa le informazioni ricevute dal form e le raccoglie in un unico testo. 
 Associazione ai range (Google Sheets): ogni parametro viene associato alla tabella di database in cui sono scritti i valori entro cui dovrebbero rientrare i risultati. 
-Punto decisionale 1 · richiesta di diagnosi? Se l’utente chiede una diagnosi, la domanda viene ignorata. [DA COMPLETARE: come avviene il controllo (regola in Make o istruzione nel prompt) e se l’utente riceve un avviso.] 
+Punto decisionale 1 · richiesta di diagnosi? Se l’utente chiede una diagnosi, la domanda viene ignorata.
+
 Resoconto (API Google Gemini, prima chiamata): confronta i valori inseriti con i range della tabella ed elabora il resoconto finale. 
 Output 
 
